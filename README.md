@@ -2,8 +2,6 @@
 
 This repository contains a Long Short-Term Memory (LSTM) model implemented using Keras for stock analysis. The model is designed to predict stock prices based on historical data.
 
-
-
 ## Introduction
 
 This project focuses on the analysis and prediction of stock data for major tech companies, including Apple (AAPL), Google (GOOG), Microsoft (MSFT), Amazon (AMZN), and Tesla (TSLA). By leveraging historical stock information, various metrics, and advanced machine learning techniques, the project aims to provide valuable insights for investors.
@@ -35,9 +33,8 @@ The project is structured into several key sections, each addressing specific as
 
 To replicate the analysis and run the LSTM model, follow these steps:
 
-
-1. Execute the Jupyter notebooks in sequential order.
-
+1. Install required dependencies: `pip install -r requirements.txt`
+2. Execute the Jupyter notebooks in sequential order.
 
 ## Key Questions Answered
 
@@ -51,9 +48,21 @@ The project addresses the following questions:
 6. How can we attempt to predict future stock behavior?
 
 ## Conclusion
+
 The Stock Analysis and Prediction project aims to empower users with a comprehensive understanding of historical stock trends, risk assessment strategies, and the potential for future price prediction using advanced deep learning techniques. By leveraging this information, investors can make more informed decisions in the dynamic world of financial markets.
 
 Feel free to explore the Jupyter notebooks for detailed code implementations and analyses.
 
-Happy investing!
+## License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Resources
+
+- [Yahoo Finance API](https://pypi.org/project/yfinance/)
+- [Keras Documentation](https://keras.io/)
+- [Matplotlib Documentation](https://matplotlib.org/)
+- [Seaborn Documentation](https://seaborn.pydata.org/)
+- [NumPy Documentation](https://numpy.org/)
+- [Pandas Documentation](https://pandas.pydata.org/)
+- [Scikit-Learn Documentation](https://scikit-learn.org/stable/)
